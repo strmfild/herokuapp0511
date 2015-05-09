@@ -9,3 +9,4 @@ deployment:
     commands:
       - heroku run rake db:migrate --app agile-dusk-1843
       - heroku ps:restart --app agile-dusk-1843
+
