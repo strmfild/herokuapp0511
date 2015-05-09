@@ -1,1 +1,5 @@
-test2
+general:
+  branches:
+    only:
+      - master
+      - develop
