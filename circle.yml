@@ -7,5 +7,5 @@ deployment:
   production:
     branch: master
     commands:
-       - heroku run rake db:migrate --app peaseful-shore-2090
-       - heroku ps:restart --app peaseful-shore-2090
+       - heroku run rake db:migrate --app peaceful-shore-2090
+       - heroku ps:restart --app peaceful-shore-2090
