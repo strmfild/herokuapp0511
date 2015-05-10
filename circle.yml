@@ -1,6 +1,3 @@
-test:
-  override:
-    - ./dummy_test_script.sh
 general:
   branches:
     only:
