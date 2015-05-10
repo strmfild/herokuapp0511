@@ -7,6 +7,7 @@ deployment:
   production:
     branch: master
     commands:
+       - git pull git@heroku.com:peaceful-shore-2090.git $CIRCLE_SHA1:refs/heads/master
        - git push git@heroku.com:peaceful-shore-2090.git $CIRCLE_SHA1:refs/heads/master
        - heroku run rake db:migrate --app peaceful-shore-2090
        - heroku ps:restart --app peaceful-shore-2090
